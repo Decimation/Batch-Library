@@ -1,2 +1,2 @@
 @echo off
-nircmd setdefaultsounddevice "Speakers"
+nircmdc setdefaultsounddevice "Speakers"
