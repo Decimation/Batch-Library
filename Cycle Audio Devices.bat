@@ -36,9 +36,9 @@ for %%a in (%*) do (
 
 if not defined option (
 	rem set option="@('FiiO DAC','Speakers','Headset')"
-	rem set option="@(%DefaultAudioDevices%)"
-	echo Missing arguments
-    exit /b -1
+	set option="@(%DefaultAudioDevices%)"
+	rem echo Missing arguments
+    rem exit /b -1
 )
 
 SET option
